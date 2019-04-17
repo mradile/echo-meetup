@@ -1,4 +1,4 @@
-module echo-meetup
+module github.com/mradile/echo-meetup
 
 go 1.12
 
