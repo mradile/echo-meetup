@@ -1,0 +1,35 @@
+POST http://localhost:3131/api/v1/report
+Content-Type: application/json
+
+{
+ "id": "first",
+ "name": "jon"
+}
+
+###
+GET http://localhost:3131/api/v1/report/first
+
+###
+GET http://localhost:3131/api/v1/report
+
+###
+
+PUT http://localhost:3131/api/v1/report/first
+Content-Type: application/json;charset=UTF-8
+
+{
+  "id": "first",
+  "name": "sam"
+}
+
+###
+
+DELETE http://localhost:3131/api/v1/report/first
+
+###
+
+GET http://localhost:3131/index.html
+
+###
+
+
